@@ -1,0 +1,22 @@
+.form{
+    width: 60%;
+    // border:purple 2px solid;
+    border-radius: 15px;
+    height: 600px;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    input{
+        margin: auto;
+        width: 70%;
+        height: 8%;
+        position: relative;
+        font-size: 150%;
+        text-align: center;
+        display: block;
+    }
+    button{
+        margin: auto;
+        display: block;
+    }
+}

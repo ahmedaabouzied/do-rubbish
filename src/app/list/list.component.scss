@@ -1,0 +1,20 @@
+.list{
+    margin: auto;
+    margin-top: 5%;
+    font-size: 120%;
+    width: 60%;
+    text-align: center;
+    li:nth-child(odd){
+        background-color: #e6e1e1;
+    }
+    li{
+        text-align: center;
+        list-style-type: none;
+        height: 100%;
+        width: 100%;
+        padding: 3%;
+    }
+    button{
+        float: right;
+    }
+}

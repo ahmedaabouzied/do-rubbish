@@ -1,0 +1,13 @@
+<ul class="list">
+  <h3 *ngIf="todolist === null"><b>NO NOTES FOR NOW</b></h3>
+  <li *ngFor="let todo of todolist ;  let i = index" [attr.id]="i">
+    {{todo}}
+    <button class="btn btn-icon btn-sm" (click)="removeTodo(todo)">
+      <clr-icon shape="times"></clr-icon>
+    </button>
+    <button class="btn btn-icon btn-sm" (click)="edit(i)">
+      <clr-icon shape="pencil"></clr-icon>
+    </button>
+    <br>
+  </li>
+</ul>
