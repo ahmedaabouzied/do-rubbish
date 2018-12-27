@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {PwaService} from '';
+// import { ServiceWorkerModule } from '@angular/service-worker';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,8 +7,8 @@ import {PwaService} from '';
 })
 export class AppComponent {
   title = 'dorubbish';
-  constructor(public Pwa: PwaService) { }
-  installPwa(): void {
-    this.Pwa.promptEvent.prompt();
-  }
+  constructor() { }
+  // installPwa(): void {
+  //   this.Pwa.promptEvent.prompt();
+  // }
 }
